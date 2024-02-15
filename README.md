@@ -28,3 +28,8 @@
 
 ### ビルド
 - gradleやIntelliJで行ってください
+- shadowJarでMainKtを指定した
+
+### todo
+- `java -jar AmazonAfiCompose.jar`で立ち上げると ACCESS KEYや SECRET KEYの環境変数を呼んでくれるが
+Wクリックで立ち上げるとそんな環境変数は見ないからエラーになるのでどげんかせんといかん
