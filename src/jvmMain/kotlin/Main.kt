@@ -57,7 +57,7 @@ fun callAmazon(asin: String) : String
             if (item != null)
             {
                 if (item.detailPageURL != null) {
-                    txt += "<a href=\"" + item.detailPageURL + "\">\n"
+                    txt += "<a href=\"" + item.detailPageURL + "\" target=\"_blank\">\n"
                 }
                 if (item.images != null)
                 {
